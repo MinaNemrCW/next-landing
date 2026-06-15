@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function FAQ() {
   const faqs = [
     {
-      question: "What is this website about?",
+      question: "How do I get started?",
       answer:
-        "This is a simple landing page built with Next.js to showcase a basic Hello World page and a FAQ section.",
+        "Clone the repository, install dependencies with npm install, then run npm run dev to start the development server. It's built with Next.js 15+ and requires Node.js.",
     },
     {
       question: "Who created this?",
@@ -35,7 +35,7 @@ export default function FAQ() {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-start min-h-screen bg-gradient-to-b from-blue-50 to-blue-100 dark:from-slate-900 dark:to-slate-800 py-12 px-6">
+    <div className="flex flex-col items-center justify-start min-h-screen bg-linear-to-b from-blue-50 to-blue-100 dark:from-slate-900 dark:to-slate-800 py-12 px-6">
       <main className="w-full max-w-2xl">
         <div className="mb-8">
           <h1 className="text-4xl font-bold text-blue-900 dark:text-blue-100 mb-4">
