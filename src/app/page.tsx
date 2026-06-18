@@ -10,12 +10,20 @@ export default function Home() {
         <p className="text-lg text-blue-700 dark:text-blue-300 max-w-md">
           Welcome to our landing page. Have any questions? Check out our FAQ!
         </p>
-        <Link
-          href="/faq"
-          className="mt-4 px-8 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200"
-        >
-          Go to FAQ
-        </Link>
+        <div className="mt-4 flex flex-wrap items-center justify-center gap-4">
+          <Link
+            href="/faq"
+            className="px-8 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200"
+          >
+            Go to FAQ
+          </Link>
+          <Link
+            href="/technologies"
+            className="px-8 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200"
+          >
+            View Technologies
+          </Link>
+        </div>
       </main>
     </div>
   );
